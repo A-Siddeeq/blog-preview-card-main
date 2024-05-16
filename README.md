@@ -23,8 +23,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/A-Siddeeq/blog-preview-card-main)
+- Live Site URL: (https://blog-preview-card-main-ten-chi.vercel.app/)
 
 ### Built with
 
@@ -38,8 +38,6 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ## Author
 
 - Frontend Mentor - [@A-Siddeeq](https://www.frontendmentor.io/profile/A-Siddeeq)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
