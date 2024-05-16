@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            colYellow: 'hsl(47, 88%, 63%)',
+            colGrey: 'hsl(0, 0%, 50%)',
+            colWhite: 'hsl(0, 0%, 100%)',
+            colBlack: 'hsl(0, 0%, 7%)'
+          },
+          screens: {
+            'mobile': '375px',
+            'desktop': '1440px'
+          },
+          FontFamily: {
+            figtree: 'Figtree'
+          },
+          boxShadow: {
+          'newXl': '10px 10px',
+          },
+          borderRadius: {
+            'newBorderRad': '16px',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-colYellow flex h-dvh flex-col items-center justify-center">
+
+  <div class="card border border-5 border-colBlack flex flex-col items-center h-auto w-5/6 md:w-96 bg-colWhite rounded-newBorderRad shadow-newXl shadow-colBlack">
+    
+    <div class=" px-6 py-4 flex flex-col justify-between">
+        <img src="assets/images/illustration-article.svg" alt="" class="rounded-newBorderRad">
+         <p class="bg-colYellow font-bold w-fit py-1 px-2 text-sm rounded mt-5">Learning</p>
+        <p class="font-semibold text-sm my-2">Published 21 Dec 2023</p>
+        <h1 class="font-extrabold text-xl my-2 hover:cursor-pointer hover:text-colYellow">HTML & CSS Foundations</h1>
+        <p class="text-colGrey text-sm">These languages are the backbone of every website,
+         designing structure, content and presentation.
+        </p>
+    </div>
+    <div class="flex items-center w-full justify-items-start px-6 pb-2 mb-4 gap-4 font-bold">
+      <img src="assets/images/image-avatar.webp" alt="" width="35px">
+      <p>Greg Hooper</p>
+    </div>
+  </div>
+
+  
+  <div class="attribution mt-6 text-sm">
+    Challenge by <a class="text-colGrey" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#" class="text-colGrey">As-Siddeeq</a>.
+  </div>
+</body>
+</html>
